@@ -22,6 +22,11 @@ dim_cliente ──── fato_vendas ──── dim_forma_pagamento
                         │
                     dim_tempo
 ```
+### Modelo Estrela
+
+O Data Warehouse foi estruturado em modelo estrela, com a tabela `fato_vendas` centralizada e relacionada às dimensões de cliente, produto, forma de pagamento e tempo.
+
+![Modelo Estrela do Data Warehouse](modelo-estrela.png.jpeg)
 
 ### Tabelas criadas
 
@@ -63,6 +68,20 @@ Foram criados **3 Data Marts** para análise segmentada:
 
 ---
 
+## 📊 Dashboard de Vendas
+
+O dashboard apresenta uma visão consolidada das vendas, permitindo acompanhar a evolução do faturamento, desempenho dos produtos e categorias e a distribuição das formas de pagamento ao longo dos períodos analisados.
+
+![Dashboard de Vendas - ELA Analytics](dashboard-analytics.png.png)
+
+
+### 🔎 Principais resultados
+
+- **Informática** foi a categoria de maior participação nas vendas, com 32%.
+- **Lavadora Ganca 10L** apresentou o maior faturamento entre os produtos analisados.
+- **Crédito** foi a forma de pagamento com maior faturamento acumulado.
+- **Mendes Bezerra Comércio de Móveis** liderou o ranking de clientes.
+
 ## 👩‍💻 Autoras
 
 Projeto desenvolvido em grupo como trabalho final do Módulo de ETL:
@@ -70,6 +89,8 @@ Projeto desenvolvido em grupo como trabalho final do Módulo de ETL:
 - Amanda Mardelen Reinaldo Magalhães
 - Eduarda
 - Larisse
+
+
 
 ---
 
